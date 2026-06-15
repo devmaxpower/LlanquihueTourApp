@@ -6,8 +6,20 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-
+/**
+ * Gestiona la lectura de datos desde archivos de texto.
+ * Convierte cada registro leído en objetos de tipo Tour.
+ *
+ * @author Maximiliano Villalobos
+ * @version 1.0
+ */
 public class GestorDatos {
+    /**
+     * Lee un archivo de texto y genera una colección de tours.
+     *
+     * @param rutaArchivo Ruta del archivo a leer.
+     * @return Lista de objetos Tour.
+     */
     public ArrayList<Tour> leerTours(String rutaArchivo) {
         ArrayList<Tour> tours = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(rutaArchivo))) {
