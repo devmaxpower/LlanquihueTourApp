@@ -1,0 +1,5 @@
+Ruta Gastronómica del Lago;gastronómico;25000
+Paseo Lacustre Llanquihue;lacustre;18000
+Tour Cultural Frutillar;cultural;22000
+Excursión Volcán Osorno;aventura;35000
+Tour Cervecero Puerto Varas;gastronómico;30000
